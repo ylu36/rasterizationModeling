@@ -272,7 +272,7 @@ function loadSpheres() {
                   coordArray.push(radius * z);
               }
           }
-
+console.log(coordArray);
           for (var latNumber = 0; latNumber < latitudeBands; latNumber++) {
               for (var longNumber = 0; longNumber < longitudeBands; longNumber++) {
                   var first = (latNumber * (longitudeBands + 1)) + longNumber;
