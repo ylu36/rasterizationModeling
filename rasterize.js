@@ -5,7 +5,7 @@ const WIN_Z = 0;  // default graphics window z coord in world space
 const WIN_LEFT = 0; const WIN_RIGHT = 1;  // default left and right x coords in world space
 const WIN_BOTTOM = 0; const WIN_TOP = 1;  // default top and bottom y coords in world space
 const INPUT_TRIANGLES_URL = "https://ncsucgclass.github.io/prog2/triangles.json"; // triangles file loc
-const INPUT_SPHERES_URL = "https://ncsucgclass.github.io/prog2/spheres.json"; // spheres file loc
+const INPUT_SPHERES_URL = "https://ylu36.github.io/test/spheres.json"; // spheres file loc
 var Eye = new vec3.fromValues(0.5,0.5,-0.5); // default eye position in world space
 var Light = new vec3.fromValues(2,4,-0.5); // default light position in world space
 
