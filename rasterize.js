@@ -352,8 +352,8 @@ console.log(coordArray);
     mat4.mul(mMatrix, lMatrix, mvMatrix);
     mat3.normalFromMat4(nMatrix, mMatrix);
 
-    setMatrixUniforms();
-    setColorUniforms();
+   // setMatrixUniforms();
+ //   setColorUniforms();
     renderTriangles();
     }
   }
